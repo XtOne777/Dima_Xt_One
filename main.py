@@ -8,3 +8,4 @@ boolean = bool()
 tuple_example = tuple()
 dictionary = dict()
 
+lol = int()
