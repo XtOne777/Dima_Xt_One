@@ -5,7 +5,8 @@ string = str()
 boolean = bool()
 
 # Списки, сборки
-tuple_example = tuple()
-dictionary = dict()
 lol = int()
 asdas = int()
+
+tuple_example = (1, 2, 3, "21asd")
+dictionary = {1, 2, 3, 4, "asdasd"}
