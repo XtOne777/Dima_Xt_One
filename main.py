@@ -12,13 +12,8 @@ tuple_example = (1, 2, 3, "21asd")
 dictionary = {1, 2, 3, 4, "asdasd"}
 
 a = input().split(";")
-b = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
 for i in a:
-    flag = True
-    for k in i:
-        if k not in b:
-            flag = False
-    if flag:
+    if len(list(filter(lambda x: x.isdigit(), list(i)))) == len(i):
         print(i + " - число")
         continue
     print(i + " - не число")
