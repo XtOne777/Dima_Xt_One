@@ -9,3 +9,5 @@ tuple_example = tuple()
 dictionary = dict()
 
 lol = int()
+
+asdas = int()
